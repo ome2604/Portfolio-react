@@ -1,0 +1,56 @@
+
+.project {
+    height: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.projects h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(16deg,#4b90ff, #ddd4d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:drop-shadow( 2px 2px #eaeef0 ); 
+}
+
+.img-cards img {
+    border-radius: 0%;
+    height: auto;
+}
+
+.info-cards h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    background: -webkit-linear-gradient(16deg,#4b90ff, #a97373);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img-cards img:hover {
+    height: 20rem;
+    width: 25rem;
+    box-shadow: 2px 2px 2px 2px rgb(64, 236, 242);
+}
+
+@media screen and (max-width: 768px) {
+
+    
+.project {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+.img-cards img:hover {
+    height: 12rem;
+    width: 19rem;
+    box-shadow: 2px 2px 2px 2px rgb(64, 236, 242);
+}
+}

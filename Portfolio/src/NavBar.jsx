@@ -6,9 +6,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { Home } from './Home'
 import AboutMe from './AboutMe';
-import Work from './Work';
+import {Work} from './Work.jsx';
 import Contactme from './Contactme';
-
 
 
 export const NavBar = () => {
@@ -16,12 +15,6 @@ export const NavBar = () => {
   <>
   <div className="div-main">
     <div className="name">Omendra</div>
-    <div className="nav-links">
-        <li><NavLink to="/" onClick={<Home/>}>Home</NavLink></li>
-        <li><NavLink to="/about" onClick={<AboutMe/>}>AboutMe</NavLink></li>
-        <li><NavLink to="/work" onClick={<Work/>}>Work</NavLink></li>
-        <li><NavLink to="/contact" onClick={<Contactme/>}>Contact-Me</NavLink></li>
-    </div>
     <div className="git">
     <NavLink to="https://github.com/ome2604">
     <FontAwesomeIcon icon={faGithub}/></NavLink>
