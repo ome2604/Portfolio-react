@@ -1,5 +1,5 @@
 import './App.css'
-import imgMine from "./assets/imgMine.jpg"
+import imgMine from "./assets/omg-mine.jpeg"
 import React from 'react'
 
 export const Home = () => {
@@ -17,4 +17,5 @@ export const Home = () => {
   </>
   )
 }
+
 
